@@ -1,0 +1,73 @@
+body { 
+	background-color: #ffffff;
+	margin: 0px;
+}
+.banner {
+    background-color: #d5cfc3;
+    color: white;
+    padding: 8px;
+    text-align:left;
+    font-family: Times New Roman, serif;
+    font-size: 10px;
+    text-indent: 55px;
+    background-image: url('PHOTO-2023-12-06-11-15-21.jpg'); 
+    background-size: 35px 35px;
+    background-repeat: no-repeat;
+    background-position: left; 
+    background-position: 10px;
+    
+}
+
+.mi-boton {
+    background-color: #d5cfc3; 
+    color: white; 
+    font-size: 15px; 
+    padding: 10px 65px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form{
+    background-color: #d5cfc3;
+    border-radius: 10px;
+    margin: 35px;
+    padding: 50px;
+}
+
+.boton {
+    background-color: #ffffff; 
+    color: black; 
+    font-size: 15px; 
+    padding: 10px 65px;
+    border: none;
+    border-radius: 5px;
+}
+
+.botonVol {
+    background-color: white; 
+    color: #d5cfc3; 
+    font-size: 15px; 
+    padding: 8px 45px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 1100px;
+}
+
+footer {
+    color: white;
+    background-color: #d5cfc3;
+    text-align: center;
+    padding-left: 550px;
+    padding-right: 550px;
+    padding-top: 1px;
+    font-size: 15px;
+}
+
+article{
+	background-color: white;
+	margin: 4rem;
+	margin-bottom: 350px;
+    margin-top: 10px;
+}
