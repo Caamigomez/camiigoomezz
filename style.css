@@ -171,13 +171,15 @@ header{
     .mostrarMen,.esconderMen{
         display: block;
     }
+    
     .menu{
         position: fixed;
         width: 100%;
         height: 100vh;
         background:rgb(234, 234, 227);
         right: -100%;
-        bottom: 0;
+        bottom: auto; 
+        top: 0;
         text-align: center;
         padding: 100px 0px;
         z-index: 100;
@@ -206,7 +208,7 @@ header{
     #servicios ul li {
         margin-left: 10px;
         margin-right: 10px;
-        font-size: 14px; /* Reducir tamaño de texto en pantallas pequeñas */
+        font-size: 14px; 
     }
 
     #banner3{
