@@ -209,6 +209,10 @@ header{
         font-size: 14px; /* Reducir tamaño de texto en pantallas pequeñas */
     }
 
+    #banner3{
+        padding-bottom: 40px;
+    }
+
     .boton-empezar {
         padding: 10px 25px;
     }
