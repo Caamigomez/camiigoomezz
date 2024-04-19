@@ -95,6 +95,29 @@ header{
     left: 0;
 }
 
+#servicios ul li {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 300px;
+    margin-right: 300px;
+    border: 1px solid white;
+    border-radius: 20px; 
+    padding: 10px; 
+    color: rgb(194, 194, 186); 
+    background-color: white;
+    list-style: none;
+    text-align: center;
+    font-size: 20px;
+}
+
+#servicios h3{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
 .boton-empezar{
     text-decoration: none;
     color: white;
@@ -165,7 +188,7 @@ header{
     }
 
     #servicios{
-        top: 125px;
+        top: 130px;
     }
 
     .boton-empezar {
