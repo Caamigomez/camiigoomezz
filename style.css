@@ -54,7 +54,7 @@ header{
     background-image: url("Logo.png");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 300px;
+    background-size: 250px;
 }
 
 #banner::before{
@@ -86,7 +86,7 @@ header{
     height: 100%;
     display: flex;
     justify-content: center;
-    margin-top: 400px;
+    margin-top: 350px;
 }
 
 .contenido-banner h3{
