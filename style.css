@@ -212,4 +212,8 @@ header{
     .boton-empezar {
         padding: 10px 25px;
     }
+
+    .bot {
+        padding: 10px 20px;
+    }
 }
