@@ -143,12 +143,7 @@ header{
     }
 
     #banner {
-        padding: 15px 10px;
-    }
-
-    #banner2 {
-        margin-top: 170px ;
-        flex-direction: column;
+        padding: 25px 10px;
     }
 
     .boton-empezar {
