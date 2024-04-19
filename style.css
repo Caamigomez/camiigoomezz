@@ -187,8 +187,10 @@ header{
         padding: 25px 10px;
     }
 
-    #servicios{
-        top: 140px;
+    #servicios ul li {
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 14px; /* Reducir tamaño de texto en pantallas pequeñas */
     }
 
     .boton-empezar {
