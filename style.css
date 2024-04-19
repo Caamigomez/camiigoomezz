@@ -16,7 +16,7 @@ header{
 
 .logo{
     text-transform: uppercase;
-    font-weight: 150;
+    font-weight: 200;
     font-size: 20px;
 }
 
@@ -40,6 +40,8 @@ header{
 
 .menu a:hover, .mostrarMen:hover, .esconderMen:hover{
     color: rgb(68, 68, 47);
+    padding-bottom: 5px;
+    border-bottom: 2px solid rgba(74, 75, 72, 0.6);
 }
 
 #check{
@@ -145,7 +147,7 @@ header{
     }
 
     #banner2 {
-        padding: 15px 10px;
+        padding: 25px 10px;
     }
 
     .boton-empezar {
