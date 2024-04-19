@@ -147,7 +147,8 @@ header{
     }
 
     #banner2 {
-        padding: 25px 10px;
+        margin-top: 170px ;
+        flex-direction: column;
     }
 
     .boton-empezar {
