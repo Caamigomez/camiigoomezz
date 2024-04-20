@@ -167,6 +167,10 @@ header{
     font-weight: 600;
 }
 
+#fot{
+    list-style: none;
+}
+
 @media(max-width: 1080px){
     .mostrarMen, .esconderMen {
         display: block;
