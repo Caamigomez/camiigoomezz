@@ -171,6 +171,10 @@ header{
     list-style: none;
 }
 
+#banner3.ocultar {
+    display: none;
+}
+
 @media(max-width: 1080px){
     .mostrarMen, .esconderMen {
         display: block;
