@@ -211,6 +211,11 @@ header{
         font-size: 14px; 
     }
 
+    #servicios{
+        background-color: rgba(220, 221, 218);
+        height: 90vh;
+    }
+
     #banner3{
         padding-bottom: 30px;
     }
