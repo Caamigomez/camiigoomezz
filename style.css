@@ -167,7 +167,7 @@ header{
     font-weight: 600;
 }
 
-@media(max-width: 720px){
+@media(max-width: 1080px){
     .mostrarMen,.esconderMen{
         display: block;
     }
