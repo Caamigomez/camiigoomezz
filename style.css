@@ -216,6 +216,10 @@ header{
         height: 50vh;
     }
 
+    #banner3 {
+        padding-bottom: 45vh;
+    }
+
     .boton-empezar {
         padding: 1vh 2.5vw;
     }
