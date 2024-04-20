@@ -168,63 +168,63 @@ header{
 }
 
 @media(max-width: 1080px){
-    .mostrarMen,.esconderMen{
+    .mostrarMen, .esconderMen {
         display: block;
     }
     
-    .menu{
+    .menu {
         position: fixed;
         width: 100%;
         height: 100vh;
-        background:rgb(234, 234, 227);
+        background: rgb(234, 234, 227);
         right: -100%;
         bottom: auto; 
         top: 0;
         text-align: center;
-        padding: 100px 0px;
+        padding: 10vh 0;
         z-index: 100;
         transition: 0.8s;
     }
 
-    .menu a{
+    .menu a {
         display: block;
-        padding: 20px;
+        padding: 2vh 0;
     }
 
-    .esconderMen{
+    .esconderMen {
         position: absolute;
-        top: 40px;
-        right: 40px;
+        top: 4vh;
+        right: 4vh;
     }
 
-    #check:checked ~ .menu{
+    #check:checked ~ .menu {
         right: 0;
     }
 
     #banner {
-        padding: 25px 10px;
+        padding: 2.5vh 1vw;
     }
 
     #servicios ul li {
-        margin-left: 10px;
-        margin-right: 10px;
-        font-size: 14px; 
+        margin-left: 1vw;
+        margin-right: 1vw;
+        font-size: 1.5vh; 
     }
 
-    #servicios{
+    #servicios {
         background-color: rgba(220, 221, 218);
         height: 120vh;
     }
 
-    #banner3{
-        padding-bottom: 30px;
+    #banner3 {
+        padding-bottom: 3vh;
     }
 
     .boton-empezar {
-        padding: 10px 25px;
+        padding: 1vh 2.5vw;
     }
 
     .bot {
-        padding: 10px 20px;
+        padding: 1vh 2vw;
     }
 }
