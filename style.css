@@ -72,10 +72,10 @@ header{
 #servicios {
     display: none;
     position: absolute;
-    top: 115px;
+    top: 0px;
     left: 0;
     width: 100%;
-    height: 85vh;
+    height: 100vh;
     z-index: 999;
     background-color: rgb(218, 219, 214);
     padding: 20px;
@@ -121,10 +121,10 @@ header{
 #horariosSection {
     display: none;
     position: absolute;
-    top: 115px;
+    top: 0px;
     left: 0;
     width: 100%;
-    height: 85vh;
+    height: 100vh;
     z-index: 999;
     background-color: rgb(218, 219, 214);
     padding: 20px;
@@ -157,10 +157,10 @@ header{
 #contactoSection {
     display: none;
     position: absolute;
-    top: 115px;
+    top: 0px;
     left: 0;
     width: 100%;
-    height: 85vh;
+    height: 100vh;
     z-index: 999;
     background-color: rgb(218, 219, 214);
     padding: 20px;
@@ -202,16 +202,24 @@ header{
 #ubicacionSection {
     display: none;
     position: absolute;
-    top: 125px;
+    top: 0px;
     left: 0;
     width: 100%;
-    height: 84vh;
+    height: 100vh;
     z-index: 999;
     background-color: rgb(218, 219, 214);
     padding: 20px;
     box-sizing: border-box;
     padding-top: 120px;
     padding-left: 450px ;
+}
+
+#ubicacionSection h3{
+    color: white;
+    font-size: 23px;
+    padding-left: 250px;
+    padding-bottom: 10px;
+    padding-top: 10px;
 }
 
 .boton-empezar{
