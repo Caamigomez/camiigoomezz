@@ -364,4 +364,12 @@ header{
     .bot {
         padding: 1vh 2vw;
     }
+
+    #ubicacionSection h3{
+        color: white;
+        font-size: 23px;
+        padding-left: 100px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
 }
