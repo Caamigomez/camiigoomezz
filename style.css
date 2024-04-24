@@ -8,7 +8,7 @@ header{
     height: 100px;
     background-color: rgb(234, 234, 227);
     padding: 0 50px;
-    color: white;
+    color: rgb(112, 110, 110);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -22,7 +22,7 @@ header{
 }
 
 .menu a{
-    color: white;
+    color: rgb(112, 110, 110);
     text-decoration: none;
     padding: 0 10px;
     transition: 0.4s;
@@ -41,9 +41,9 @@ header{
 }
 
 .menu a:hover, .mostrarMen:hover, .esconderMen:hover{
-    color: rgb(68, 68, 47);
+    color: rgb(255, 255, 255);
     padding-bottom: 5px;
-    border-bottom: 2px solid rgba(74, 75, 72, 0.6);
+    border-bottom: 2px solid rgba(255, 255, 255, 0.6);
 }
 
 #check{
@@ -105,7 +105,7 @@ header{
     border: 1px solid white;
     border-radius: 20px; 
     padding: 10px; 
-    color: rgb(194, 194, 186); 
+    color: rgb(112, 110, 110);
     background-color: white;
     list-style: none;
     text-align: center;
@@ -114,7 +114,7 @@ header{
 
 #servicios h3{
     text-align: center;
-    color: white;
+    color: rgb(112, 110, 110);
     font-size: 23px;
     padding-bottom: 10px;
     padding-top: 10px;
@@ -135,7 +135,7 @@ header{
 
 #horariosSection h3{
     text-align: center;
-    color: white;
+    color: rgb(112, 110, 110);
     font-size: 23px;
     padding-bottom: 10px;
     padding-top: 10px;
@@ -171,7 +171,7 @@ header{
 
 #contactoSection h3{
     text-align: center;
-    color: white;
+    color: rgb(112, 110, 110);
     font-size: 23px;
     padding-bottom: 10px;
     padding-top: 10px;
@@ -196,6 +196,15 @@ header{
     color:rgb(194, 194, 186);
     text-decoration: none; 
 }
+
+#contactoSection ul li{
+    color: rgb(112, 110, 110);
+}
+
+#horariosSection ul li{
+    color: rgb(112, 110, 110);
+}
+
 #contactoSection a:hover {
     color:rgb(109, 109, 105);
     text-decoration: underline;
@@ -217,7 +226,7 @@ header{
 }
 
 #ubicacionSection h3{
-    color: white;
+    color: rgb(112, 110, 110);
     font-size: 23px;
     padding-left: 250px;
     padding-bottom: 10px;
@@ -226,12 +235,13 @@ header{
 
 .boton-empezar{
     text-decoration: none;
-    color: white;
-    border: 3px solid white;
+    color: rgb(112, 110, 110);
+    border: 2px solid rgb(112, 110, 110);;
     padding: 15px 70px;
     align-self: baseline;
     border-radius: 15px;
     transition: 0.6s;
+    font-weight: bold;
 }
 
 .boton-empezar:hover{
@@ -249,8 +259,8 @@ header{
 
 .bot{
     text-decoration: none;
-    color: white;
-    border: 3px solid white;
+    color: rgb(112, 110, 110);
+    border: 3px solid rgb(112, 110, 110);;
     padding: 10px 40px;
     align-self: baseline;
     border-radius: 15px;
