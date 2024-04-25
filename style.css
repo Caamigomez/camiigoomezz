@@ -308,7 +308,22 @@ header{
 
     .menu a {
         display: block;
-        padding: 2vh 0;
+        padding: 3vh 0;
+    }
+
+    .menu ul a{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 200px;
+        margin-left: 80px;
+        border: 1px solid white;
+        border-radius: 20px; 
+        padding: 10px; 
+        color: rgb(112, 110, 110);
+        background-color: white;
+        list-style: none;
+        text-align: center;
+        font-size: 10px;
     }
 
     .esconderMen {
