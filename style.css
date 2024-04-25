@@ -402,7 +402,6 @@ header{
 
     #horariosSection {
         background-color: rgba(220, 221, 218);
-        height: 90vh;
     }
 
     #contactoSection ul li{
@@ -418,6 +417,7 @@ header{
 
     #inspoSection {
         background-color: rgba(220, 221, 218);
+        top: 0px;
     }
     
     #ubicacionSection {
