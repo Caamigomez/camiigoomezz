@@ -26,10 +26,9 @@
             <button id="botser" class="bot" onclick="window.location.href='index.html'">Atrás</button>
             <h3>Horarios</h3>
             <ul>
-                <li>Lunes a Viernes: coordinar</li>
-                <li>Sábado: 09:00 hs - 14:30 hs</li>
-                <li>Domingo: Cerrado</li>
+                <li>Lunes a sábados</li>
             </ul>
+            <button id="whatsappButton" class="bot" onclick="openWhatsApp()">¡AGENDAR CITA!</button>
         </div>
     </section>
     <section id="contactoSection" style="display: none;">
@@ -49,6 +48,22 @@
         <iframe id="imagen" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3272.8747571222175!2d-56.25020242398229!3d-34.88449117285492!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x959f7fd5570c39df%3A0xfbbb21da87910775!2sC.%20Holanda%201634%2C%2012800%20Montevideo%2C%20Departamento%20de%20Montevideo!5e0!3m2!1sen!2suy!4v1713842978704!5m2!1sen!2suy"
         width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </section>
+    <section id="inspoSection" style="display: none;">
+        <div class="contenido-inspo">
+            <button id="botser" class="bot" onclick="window.location.href='index.html'">Atrás</button>
+            <div class="gallery">
+                <img id="uno" src="imagen1.png" alt="Imagen 1"></a>
+                <img id="dos" src="imagen2.png" alt="Imagen 2"></a>
+                <img id="tres" src="imagen3.png" alt="Imagen 1"></a>
+                <img id="cuatro" src="imagen4.png" alt="Imagen 2"></a>
+                <img id="cinco" src="imagen5.png" alt="Imagen 1"></a>
+                <img id="seis" src="imagen6.png" alt="Imagen 2"></a>
+                <img id="siete" src="imagen7.png" alt="Imagen 1"></a>
+                <img id="ocho" src="imagen8.png" alt="Imagen 2"></a>
+            </div>
+        </div>
+    </section>
+    
     <section id="banner">
         <div class="contenido-banner">
             <a href="#" class="boton-empezar" id="mostrarServicios">SERVICIOS</a>
@@ -82,9 +97,11 @@
         const horariosLink = document.getElementById('horariosLink');
         const contactoLink = document.getElementById('contactoLink');
         const ubicacionLink = document.getElementById('ubicacionLink');
+        const inspoLink = document.getElementById('inspoLink');
         const horariosSection = document.getElementById('horariosSection');
         const contactoSection = document.getElementById('contactoSection');
         const ubicacionSection = document.getElementById('ubicacionSection');
+        const inspoSection = document.getElementById('inspoSection');
 
         function hideAllSections() {
             horariosSection.style.display = 'none';
@@ -111,6 +128,26 @@
             event.preventDefault();
             toggleSection(ubicacionSection);
         });
+
+        inspoLink.addEventListener('click', function(event) {
+            event.preventDefault();
+            toggleSection(inspoSection);
+        });
+
+
+        horariosLink.addEventListener('click', function(event) {
+            event.preventDefault();
+            toggleSection(horariosSection);
+        });
+
+        function openWhatsApp() {
+            const phoneNumber = '+598093391066';
+            const message = 'Hola!, me gustaría agendar una cita.';
+
+            const whatsappLink = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+
+            window.open(whatsappLink, '_blank');
+        }
     </script>
 </body>
 </html>

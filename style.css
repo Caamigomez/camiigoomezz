@@ -203,6 +203,10 @@ header{
 
 #horariosSection ul li{
     color: rgb(112, 110, 110);
+    margin-left: 450px;
+    width: 550px;
+    margin-bottom: 200px;
+    margin-top: 50px;
 }
 
 #contactoSection a:hover {
@@ -233,6 +237,14 @@ header{
     padding-top: 10px;
 }
 
+#inspoSection {
+    display: none;
+    position: absolute;
+    z-index: 999;
+    background-color: rgb(218, 219, 214);
+    padding: 20px;
+    box-sizing: border-box;
+}
 .boton-empezar{
     text-decoration: none;
     color: rgb(112, 110, 110);
@@ -286,6 +298,36 @@ header{
 #banner3.ocultar {
     display: none;
 }
+
+#uno, #dos{
+    width: 350px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-top: 10px;
+}
+
+#whatsappButton{
+    margin-left: 600px;
+    padding: 15px 65px;
+}
+
+#tres, #cuatro{
+    width: 350px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-top: 10px;
+}
+
+#cinco, #seis{
+    width: 350px;
+    padding-right: 5px;
+}
+
+#siete, #ocho{
+    width: 350px;
+    padding-right: 5px;
+}
+
 
 @media(max-width: 1080px){
     .mostrarMen, .esconderMen {
@@ -352,8 +394,9 @@ header{
     }
 
     #horariosSection ul li{
-        margin-left: 1vw;
-        margin-right: 1vw;
+        margin-left: 15%;
+        margin-right: 5vw;
+        width: 250px;
         font-size: 1.5vh; 
     }
 
@@ -372,6 +415,11 @@ header{
         background-color: rgba(220, 221, 218);
         height: 90vh;
     }
+
+    #inspoSection {
+        background-color: rgba(220, 221, 218);
+        height: 90vh;
+    }
     
     #ubicacionSection {
         background-color: rgba(220, 221, 218);
@@ -386,6 +434,10 @@ header{
 
     .boton-empezar {
         padding: 1vh 2.5vw;
+    }
+
+    #whatsappButton{
+        margin-left: 60px;
     }
 
     .bot {
