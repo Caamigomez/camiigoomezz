@@ -299,16 +299,16 @@ header{
     display: none;
 }
 
+#whatsappButton{
+    margin-left: 600px;
+    padding: 15px 65px;
+}
+
 #uno, #dos{
     width: 350px;
     padding-right: 5px;
     padding-bottom: 5px;
     padding-top: 10px;
-}
-
-#whatsappButton{
-    margin-left: 600px;
-    padding: 15px 65px;
 }
 
 #tres, #cuatro{
@@ -418,7 +418,6 @@ header{
 
     #inspoSection {
         background-color: rgba(220, 221, 218);
-        height: 90vh;
     }
     
     #ubicacionSection {
@@ -449,5 +448,35 @@ header{
         padding-left: 100px;
         padding-bottom: 10px;
         padding-top: 10px;
+    }
+
+    #uno, #dos{
+        width: 150px;
+        padding-right: 5px;
+        padding-bottom: 5px;
+        padding-top: 5px;
+    }
+    
+    #tres, #cuatro{
+        width: 150px;
+        padding-right: 5px;
+        padding-bottom: 5px;
+        padding-top: 5px;
+    }
+    
+    #cinco, #seis{
+        width: 150px;
+        padding-right: 5px;
+        padding-right: 5px;
+        padding-bottom: 5px;
+        padding-top: 5px;
+    }
+    
+    #siete, #ocho{
+        width: 150px;
+        padding-right: 5px;
+        padding-right: 5px;
+        padding-bottom: 5px;
+        padding-top: 5px;
     }
 }
