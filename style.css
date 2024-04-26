@@ -61,7 +61,6 @@ header{
     background-size: 250px;
 }
 
-
 #banner3{
     padding: 73px 50px;
     background-size: cover;
@@ -311,6 +310,10 @@ header{
     padding: 15px 65px;
 }
 
+.gallery{
+    padding-left: 20px;
+}
+
 #uno, #dos{
     width: 350px;
     padding-right: 5px;
@@ -397,7 +400,6 @@ header{
 
     #servicios {
         background-color: rgba(220, 221, 218);
-        height: 90vh;
     }
 
     #horariosSection ul li{
@@ -419,7 +421,6 @@ header{
 
     #contactoSection {
         background-color: rgba(220, 221, 218);
-        height: 90vh;
     }
 
     #inspoSection {
@@ -429,7 +430,6 @@ header{
     
     #ubicacionSection {
         background-color: rgba(220, 221, 218);
-        height: 90vh;
         padding-left: 20px;
     }
 
@@ -456,6 +456,10 @@ header{
         margin-right: 5vw;
         width: 250px;
         font-size: 1.5vh; 
+    }
+
+    .gallery{
+        padding-left: 20px;
     }
 
     #uno, #dos{
