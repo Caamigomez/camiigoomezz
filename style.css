@@ -459,7 +459,8 @@ header{
     }
 
     .gallery{
-        padding-left: 20px;
+        padding-right: 5%;
+        padding-left: 5%;
     }
 
     #uno, #dos{
